@@ -1,16 +1,31 @@
-/* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
-
-/* temp background color */
+/* style.css */
 body {
-    background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
 }
-  
-/* vertical and horizontal centering */
-body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
+
+.svg-flex {
+  animation: flex-animation 2s infinite ease-in-out;
+}
+
+@keyframes flex-animation {
+  0% {
+      transform: scale(1);
+  }
+  25% {
+      transform: scale(1.1) rotate(-3deg);
+  }
+  50% {
+      transform: scale(1.2) rotate(3deg);
+  }
+  75% {
+      transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+      transform: scale(1);
+  }
 }
