@@ -5,7 +5,12 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #71a4df;
+}
+
+svg path {
+  fill: black;
+  stroke: red; 
 }
 
 .svg-flex {
