@@ -8,11 +8,6 @@ body {
   background-color: #71a4df;
 }
 
-svg path {
-  fill: black;
-  stroke: red; 
-}
-
 .svg-flex {
   animation: flex-animation 2s infinite ease-in-out;
 }
